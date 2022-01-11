@@ -44,7 +44,7 @@ items:
       spec:
         containers:
         - env: []
-          image: quay.io/train_ed/nexus:latest
+          image: quay.io/your_username/nexus:latest
           imagePullPolicy: Always
           livenessProbe:
             failureThreshold: 10
